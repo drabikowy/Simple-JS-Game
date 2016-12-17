@@ -6,3 +6,35 @@ body {
     margin: 0;
     padding: 0;
 }
+
+#board {
+   height: 550px;
+   width: 550px;
+   margin: 0 auto;
+   margin-top: 50px;
+
+
+}
+
+#board>div {
+   width: 55px;
+   height: 55px;
+   border: 1px solid maroon;
+   float:left;
+}
+
+.furry {
+   background: url('../images/furry.png') center/cover no-repeat;
+}
+
+.coin {
+   background: url('../images/coin.png') center/cover no-repeat;
+}
+
+#score {
+   position: fixed;
+   top: 50px;
+   left: 50px;
+   font-size: 40px;
+
+}
